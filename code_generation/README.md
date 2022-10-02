@@ -31,3 +31,6 @@ The arguments are as follows:
 * `--evaluation_method`: The decoding method that used to generate the result and it should be one of [`greedy`, `beam`, `nucleus`, `contrastive`].
 * `--model_name`: The CodeGen model that used to generate the result and it should be one of [`Salesforce/codegen-350M-mono`, `Salesforce/codegen-2B-mono`]
 * `--save_path_prefix`: The directory used to save the inferenced result.
+
+**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + r'/{}/{}/'.format(model_name, 
+        evaluation_method)`.
