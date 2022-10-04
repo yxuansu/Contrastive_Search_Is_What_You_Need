@@ -35,7 +35,7 @@ Before running the experiments, please make sure you have downloaded the XSum da
 #### 2. Evaluation Setup:
 Next, we need to install the evaluation environment (i.e. pyrouge) for compute ROGUE scores. Please follow the commands below as described [[here]](https://stackoverflow.com/questions/45894212/installing-pyrouge-gets-error-in-ubuntu). In the following, we provide a detailed tutorial on how to setup the evaluation environment.
 
-**[Note]** The provided tutorial is only tested on Ubuntu systems
+**[Note]** The provided tutorial is only tested on Ubuntu systems.
 
 <span id='rogue_source'/>
 
