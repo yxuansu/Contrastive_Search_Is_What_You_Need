@@ -3,14 +3,20 @@
 ****
 
 ### Catalogue:
-* <a href='#evaluation_setup'>1. Evaluation Setup</a>
-* <a href='#data_preparation'>2. Data Preparation</a>
+* <a href='#data_preparation'>1. Data Preparation</a>
+* <a href='#evaluation_setup'>2. Evaluation Setup</a>
 * <a href='#inference'>3. Inference with Different Decoding Methods</a>
+
+****
+<span id='data_preparation'/>
+
+#### 1. Data Preparation:
+Before running the experiments, please make sure you have downloaded the XSum dataset as provided [[here]](../data/xsum/).
 
 ****
 <span id='evaluation_setup'/>
 
-#### 1. Evaluation Setup:
+#### 2. Evaluation Setup:
 
 First, we should install the evaluation environment `human-eval` for HumanEval benchmark following the official instructions [[here]](https://github.com/openai/human-eval). After installation, please run a quick sanity check as suggested in the [official instructions](https://github.com/openai/human-eval#usage).
 
