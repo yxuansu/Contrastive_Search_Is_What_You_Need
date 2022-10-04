@@ -19,8 +19,8 @@ Before running the experiments, please make sure you have downloaded the XSum da
     .
     ├──
         ├── ../data/xsum/xsum_test.json  # The test set of XSum benchmark.
-        ├── ../data/xsum/one-shot/  # This directory contains three random sets of one-shot training data.
-        └── ../data/xsum/two-shot/  # This directory contains three random sets of two-shot training data.
+        ├── ../data/xsum/one-shot/  # This directory contains three random sets of one-shot training data of XSum.
+        └── ../data/xsum/two-shot/  # This directory contains three random sets of two-shot training data of XSum.
 
 ****
 <span id='evaluation_setup'/>
