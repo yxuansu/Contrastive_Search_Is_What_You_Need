@@ -5,6 +5,13 @@
 ### Catalogue:
 * <a href='#data_preparation'>1. Data Preparation</a>
 * <a href='#evaluation_setup'>2. Evaluation Setup</a>
+    * <a href='#rogue_source'>2.1 Install Pyrouge from Source</a>
+    * <a href='#rogue_official'>2.2 Install Official ROUGE Script</a>
+    * <a href='#rogue_point'>2.3 Point Pyrouge to Official ROGUE Script</a>
+    * <a href='#rogue_parser'>2.4 Install libxml Parser [Optional]</a>
+    * <a href='#rogue_DB'>2.5 Regenerate the Exceptions DB</a>
+    * <a href='#rogue_locale'>2.6 Fix Locale Setting</a>
+    * <a href='#rogue_test'>2.7 Run Test</a>
 * <a href='#inference'>3. Inference with Different Decoding Methods</a>
 
 ****
@@ -26,6 +33,90 @@ Before running the experiments, please make sure you have downloaded the XSum da
 <span id='evaluation_setup'/>
 
 #### 2. Evaluation Setup:
+Next, we need to install the evaluation environment (i.e. pyrouge) for compute ROGUE scores. Please follow the commands below as described [[here]](https://stackoverflow.com/questions/45894212/installing-pyrouge-gets-error-in-ubuntu). In the following, we provide a detailed tutorial on how to setup the evaluation environment (for Linux system only).
+
+<span id='rogue_source'/>
+
+##### 2.1 Install Pyrouge from Source:
+```yaml
+git clone https://github.com/bheinzerling/pyrouge
+cd pyrouge
+pip install -e .
+```
+
+<span id='rogue_official'/>
+
+##### 2.2 Install Official ROUGE Script:
+```yaml
+git clone https://github.com/andersjo/pyrouge.git rouge
+```
+
+<span id='rogue_point'/>
+
+##### 2.3 Point Pyrouge to Official ROGUE Script:
+```yaml
+pwd
+```
+It returns the `current_path`.
+
+```yaml
+pyrouge_set_rouge_path current_path/rouge/tools/ROUGE-1.5.5/
+```
+
+<span id='rogue_parser'/>
+
+##### 2.4 Install libxml Parser [Optional]:
+```yaml
+sudo apt-get install libxml-parser-perl
+```
+
+<span id='rogue_DB'/>
+
+##### 2.5 Regenerate the Exceptions DB:
+```yaml
+cd rouge/tools/ROUGE-1.5.5/data
+rm WordNet-2.0.exc.db
+./WordNet-2.0-Exceptions/buildExeptionDB.pl ./WordNet-2.0-Exceptions ./smart_common_words.txt ./WordNet-2.0.exc.db
+```
+
+<span id='rogue_locale'/>
+
+##### 2.6 Fix Locale Setting:
+If you meet the error below:
+```yaml
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = "en_GB:en",
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_GB.UTF-8").
+```
+
+You can then fix it as described [[here]](https://stackoverflow.com/questions/2499794/how-to-fix-a-locale-setting-warning-from-perl).
+```yaml
+# Setting for the new UTF-8 terminal support in Lion
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+```
+
+<span id='rogue_test'/>
+
+##### 2.7 Run Test:
+```yaml
+python -m pyrouge.test
+```
+
+You should see results like below:
+```yaml
+Ran 11 tests in 5.444s
+
+OK
+```
+
+
+
 
 First, we should install the evaluation environment `human-eval` for HumanEval benchmark following the official instructions [[here]](https://github.com/openai/human-eval). After installation, please run a quick sanity check as suggested in the [official instructions](https://github.com/openai/human-eval#usage).
 
