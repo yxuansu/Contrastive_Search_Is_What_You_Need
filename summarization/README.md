@@ -137,7 +137,7 @@ where X is in [`zero`, `one`, `two`] and Y is in [`beam`, `nucleus`, `contrastiv
 The arguments are as follows:
 * `--dataset_path_prefix`: The location that stores the data of XSum benchmark.
 * `--decoding_len`: The number of generated tokens for each instance.
-* `--decoding_method`: The decoding method that used to generate the result and it should be one of [`greedy`, `beam`, `nucleus`, `contrastive`].
+* `--decoding_method`: The decoding method that used to generate the result and it should be one of [`beam`, `nucleus`, `contrastive`].
 * `--model_name`: The OPT model that used to generate the result and it should be one of [`facebook/opt-125m`, `facebook/opt-350m`, `facebook/opt-1.3b`, `facebook/opt-2.7b`].
 * `--evaluation_mode`: The evaluation mode of the inference. It should be in [`zero-shot`, `one-shot`, `two-shot`].
 * `--split_num`: The random split of the training set. For zero-shot evaluation, it should be set as 1. For one/two-shot evaluations, it should be in [`1`, `2`, `3`].
