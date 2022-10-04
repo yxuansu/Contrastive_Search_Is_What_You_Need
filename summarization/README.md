@@ -11,7 +11,16 @@
 <span id='data_preparation'/>
 
 #### 1. Data Preparation:
-Before running the experiments, please make sure you have downloaded the XSum dataset as provided [[here]](../data/xsum/).
+Before running the experiments, please make sure you have downloaded the XSum dataset as provided [[here]](../data/xsum/). 
+
+
+> ****  The structure of the provided dataset looks like:
+
+    .
+    ├──
+        ├── ../data/xsum/xsum_test.json  # The test set of XSum benchmark.
+        ├── ../data/xsum/one-shot/  # This directory contains three random sets of one-shot training data.
+        └── ../data/xsum/two-shot/  # This directory contains three random sets of two-shot training data.
 
 ****
 <span id='evaluation_setup'/>
