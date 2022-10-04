@@ -139,8 +139,8 @@ The arguments are as follows:
 * `--decoding_len`: The number of generated tokens for each instance.
 * `--decoding_method`: The decoding method that used to generate the result and it should be one of [`beam`, `nucleus`, `contrastive`].
 * `--model_name`: The OPT model that used to generate the result and it should be one of [`facebook/opt-125m`, `facebook/opt-350m`, `facebook/opt-1.3b`, `facebook/opt-2.7b`].
-* `--evaluation_mode`: The evaluation mode of the inference. It should be in [`zero-shot`, `one-shot`, `two-shot`].
-* `--split_num`: The random split of the training set. For zero-shot evaluation, it should be set as 1. For one/two-shot evaluations, it should be in [`1`, `2`, `3`].
+* `--evaluation_mode`: The evaluation mode of the inference. It should be one of [`zero-shot`, `one-shot`, `two-shot`].
+* `--split_num`: The random split of the training set. For zero-shot evaluation, it should be set as 1. For one/two-shot evaluations, it should be one of [`1`, `2`, `3`].
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
-**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + '/{}/{}/{}/'.format(evaluation_mode, opt_model_name, decoding_method)
+**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + '/{}/{}/{}/'.format(evaluation_mode, opt_model_name, decoding_method)`
