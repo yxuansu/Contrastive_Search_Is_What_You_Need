@@ -128,18 +128,20 @@ First, we should install the evaluation environment `human-eval` for HumanEval b
 #### 2. Inference with Different Decoding Methods:
 To perform inference with different decoding methods, please run the following commands:
 ```yaml
-cd ./scripts/
-chmod +x ./inference.sh
-./inference.sh
+cd ./scripts/X-shot/
+chmod +x ./Y.sh
+./Y.sh
 ```
+where X is in [`zero`, `one`, `two`] and Y is in [`beam`, `nucleus`, `contrastive`].
 
 The arguments are as follows:
-* `--test_path`: The file path of the test data.
+* `--dataset_path_prefix`: The location that stores the data of XSum benchmark.
 * `--decoding_len`: The number of generated tokens for each instance.
 * `--run_num`: The number of evaluation runs. It should be set as [`1`, `2`, `3`], respectively, if the user would like to test stochastic nucleus sampling for multiple (e.g. 3) runs.
-* `--evaluation_method`: The decoding method that used to generate the result and it should be one of [`greedy`, `beam`, `nucleus`, `contrastive`].
-* `--model_name`: The CodeGen model that used to generate the result and it should be one of [`Salesforce/codegen-350M-mono`, `Salesforce/codegen-2B-mono`]
+* `--decoding_method`: The decoding method that used to generate the result and it should be one of [`greedy`, `beam`, `nucleus`, `contrastive`].
+* `--model_name`: The OPT model that used to generate the result and it should be one of [`facebook/opt-125m`, `facebook/opt-350m`, `facebook/opt-1.3b`, `facebook/opt-2.7b`].
+* `--evaluation_mode`: The evaluation mode of the inference. It should be in [`zero-shot`, `one-shot`, `two-shot`].
+* `--split_num`: The random split of the training set. For zero-shot evaluation, it should be set as 1. For one/two-shot evaluations, it should be in [`1`, `2`, `3`].
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
-**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + r'/{}/{}/'.format(model_name, 
-        evaluation_method)`.
+**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + '/{}/{}/{}/'.format(evaluation_mode, opt_model_name, decoding_method)
