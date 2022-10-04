@@ -28,7 +28,7 @@ The arguments are as follows:
 * `--test_path`: The file path of the test data.
 * `--decoding_len`: The number of generated tokens for each instance.
 * `--run_num`: The number of evaluation runs. It should be set as [`1`, `2`, `3`], respectively, if the user would like to test stochastic nucleus sampling for multiple (e.g. 3) runs.
-* `--evaluation_method`: The decoding method that used to generate the result and it should be one of [`greedy`, `beam`, `nucleus`, `contrastive`].
+* `--evaluation_method`: The decoding method that used to generate the result and it should be one of [`beam`, `nucleus`, `contrastive`].
 * `--model_name`: The CodeGen model that used to generate the result and it should be one of [`Salesforce/codegen-350M-mono`, `Salesforce/codegen-2B-mono`]
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
