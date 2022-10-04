@@ -5,13 +5,13 @@
 ### Catalogue:
 * <a href='#data_preparation'>1. Data Preparation</a>
 * <a href='#evaluation_setup'>2. Evaluation Setup</a>
-    * <a href='#rogue_source'>2.1 Install Pyrouge from Source</a>
-    * <a href='#rogue_official'>2.2 Install Official ROUGE Script</a>
-    * <a href='#rogue_point'>2.3 Point Pyrouge to Official ROGUE Script</a>
-    * <a href='#rogue_parser'>2.4 Install libxml Parser [Optional]</a>
-    * <a href='#rogue_DB'>2.5 Regenerate the Exceptions DB</a>
-    * <a href='#rogue_locale'>2.6 Fix Locale Setting</a>
-    * <a href='#rogue_test'>2.7 Run Test</a>
+    * <a href='#rogue_source'>2.1. Install Pyrouge from Source</a>
+    * <a href='#rogue_official'>2.2. Install Official ROUGE Script</a>
+    * <a href='#rogue_point'>2.3. Point Pyrouge to Official ROGUE Script</a>
+    * <a href='#rogue_parser'>2.4. Install libxml Parser [Optional]</a>
+    * <a href='#rogue_DB'>2.5. Regenerate the Exceptions DB</a>
+    * <a href='#rogue_locale'>2.6. Fix Locale Setting</a>
+    * <a href='#rogue_test'>2.7. Run Test</a>
 * <a href='#inference'>3. Inference with Different Decoding Methods</a>
 
 ****
@@ -39,7 +39,7 @@ In the following, we provide a detailed tutorial on how to setup the evaluation 
 
 <span id='rogue_source'/>
 
-##### 2.1 Install Pyrouge from Source:
+##### 2.1. Install Pyrouge from Source:
 ```yaml
 git clone https://github.com/bheinzerling/pyrouge
 cd pyrouge
@@ -48,14 +48,14 @@ pip install -e .
 
 <span id='rogue_official'/>
 
-##### 2.2 Install Official ROUGE Script:
+##### 2.2. Install Official ROUGE Script:
 ```yaml
 git clone https://github.com/andersjo/pyrouge.git rouge
 ```
 
 <span id='rogue_point'/>
 
-##### 2.3 Point Pyrouge to Official ROGUE Script:
+##### 2.3. Point Pyrouge to Official ROGUE Script:
 ```yaml
 pwd
 ```
@@ -67,14 +67,14 @@ pyrouge_set_rouge_path current_path/rouge/tools/ROUGE-1.5.5/
 
 <span id='rogue_parser'/>
 
-##### 2.4 Install libxml Parser [Optional]:
+##### 2.4. Install libxml Parser [Optional]:
 ```yaml
 sudo apt-get install libxml-parser-perl
 ```
 
 <span id='rogue_DB'/>
 
-##### 2.5 Regenerate the Exceptions DB:
+##### 2.5. Regenerate the Exceptions DB:
 ```yaml
 cd rouge/tools/ROUGE-1.5.5/data
 rm WordNet-2.0.exc.db
@@ -83,7 +83,7 @@ rm WordNet-2.0.exc.db
 
 <span id='rogue_locale'/>
 
-##### 2.6 Fix Locale Setting:
+##### 2.6. Fix Locale Setting:
 If you meet the error below:
 ```yaml
 perl: warning: Setting locale failed.
@@ -105,7 +105,7 @@ export LC_ALL=en_US.UTF-8
 
 <span id='rogue_test'/>
 
-##### 2.7 Run Test:
+##### 2.7. Run Test:
 ```yaml
 python -m pyrouge.test
 ```
