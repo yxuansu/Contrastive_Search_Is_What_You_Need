@@ -47,7 +47,7 @@ In the following Table, we provide the models that we use in our experiments.
 |Language|Language Code|Model Name|Model Size|Model Card|Isotropy|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |`English (GPT)`|`en`|`gpt2`<br>`gpt2-medium`<br>`gpt2-large`<br>`gpt2-xl`|`117M`<br>`345M`<br>`774M`<br>`1.6B`|[[link]](https://huggingface.co/gpt2)<br>[[link]](https://huggingface.co/gpt2-medium)<br>[[link]](https://huggingface.co/gpt2-large)<br>[[link]](https://huggingface.co/gpt2-xl)|<br><br><br>|
-|`English (GPT-Neo)`|`en`|``<br>``<br>``<br>``|``<br>``<br>``<br>``|[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()|<br><br><br>|
+|`English (GPT-Neo)`|`en`|`EleutherAI/gpt-neo-125M`<br>`EleutherAI/gpt-neo-1.3B`<br>`EleutherAI/gpt-neo-2.7B`<br>`EleutherAI/gpt-j-6B`|``<br>``<br>``<br>``|[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()|<br><br><br>|
 |`English (OPT)`|`en`|`facebook/opt-125m`<br>`facebook/opt-350m`<br>`facebook/opt-1.3b`<br>`facebook/opt-6.7b`<br>`facebook/opt-13b`|`125M`<br>`350M`<br>`1.3B`<br>`6.7B`<br>`13B`|[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()|<br><br><br><br>|
 |`Spanish`|`es`|`datificate/gpt2-small-spanish`<br>`DeepESP/gpt2-spanish-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/datificate/gpt2-small-spanish)<br>[[link]](https://huggingface.co/DeepESP/gpt2-spanish-medium)|`0.79`<br>`0.78`|
 |`French`|`fr`|`asi/gpt-fr-cased-small`|`117M`|[[link]](https://huggingface.co/asi/gpt-fr-cased-small)|`0.75`|
