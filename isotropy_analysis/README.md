@@ -49,14 +49,14 @@ In the following Table, we provide the models that we use in our experiments.
 |`English (GPT)`|`en`|`gpt2`<br>`gpt2-medium`<br>`gpt2-large`<br>`gpt2-xl`|`117M`<br>`345M`<br>`774M`<br>`1.6B`|[[link]](https://huggingface.co/gpt2)<br>[[link]](https://huggingface.co/gpt2-medium)<br>[[link]](https://huggingface.co/gpt2-large)<br>[[link]](https://huggingface.co/gpt2-xl)|<br><br><br>|
 |`English (GPT-Neo)`|`en`|`EleutherAI/gpt-neo-125M`<br>`EleutherAI/gpt-neo-1.3B`<br>`EleutherAI/gpt-neo-2.7B`<br>`EleutherAI/gpt-j-6B`|``<br>``<br>``<br>``|[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()|<br><br><br>|
 |`English (OPT)`|`en`|`facebook/opt-125m`<br>`facebook/opt-350m`<br>`facebook/opt-1.3b`<br>`facebook/opt-6.7b`<br>`facebook/opt-13b`|`125M`<br>`350M`<br>`1.3B`<br>`6.7B`<br>`13B`|[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()<br>[[link]]()|<br><br><br><br>|
-|`Spanish`|`es`|`datificate/gpt2-small-spanish`<br>`DeepESP/gpt2-spanish-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/datificate/gpt2-small-spanish)<br>[[link]](https://huggingface.co/DeepESP/gpt2-spanish-medium)|`0.79`<br>`0.78`|
-|`French`|`fr`|`asi/gpt-fr-cased-small`|`117M`|[[link]](https://huggingface.co/asi/gpt-fr-cased-small)|`0.75`|
-|`Portuguese`|`pt`|`pierreguillou/gpt2-small-portuguese`|`117M`|[[link]](https://huggingface.co/pierreguillou/gpt2-small-portuguese)|`0.74`|
-|`Thai`|`th`|`flax-community/gpt2-base-thai`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-base-thai)|`0.74`|
-|`Japanese`|`ja`|`colorfulscoop/gpt2-small-ja`|`117M`|[[link]](https://huggingface.co/colorfulscoop/gpt2-small-ja)|`0.71`|
-|`Korean`|`ko`|`skt/kogpt2-base-v2`<br>`skt/ko-gpt-trinity-1.2B-v0.5`|`117M`<br>`1.6B`|[[link]](https://huggingface.co/skt/kogpt2-base-v2/tree/main)<br>[[link]](https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5)|`0.59`<br>`0.68`|
-|`Chinese`|`zh`|`uer/gpt2-chinese-cluecorpussmall`|`117M`|[[link]](https://huggingface.co/uer/gpt2-chinese-cluecorpussmall)|`0.66`|
-|`Indonesian`|`id`|`cahya/gpt2-small-indonesian-522M`<br>`flax-community/gpt2-medium-indonesian`<br>`cahya/gpt2-large-indonesian-522M`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/cahya/gpt2-small-indonesian-522M)<br>[[link]](https://huggingface.co/flax-community/gpt2-medium-indonesian)<br>[[link]](https://huggingface.co/cahya/gpt2-large-indonesian-522M/tree/main)|`0.66`<br>`0.67`<br>`0.82`|
+|`Spanish`|`es`|`datificate/gpt2-small-spanish`<br>`DeepESP/gpt2-spanish-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/datificate/gpt2-small-spanish)<br>[[link]](https://huggingface.co/DeepESP/gpt2-spanish-medium)|``<br>``|
+|`French`|`fr`|`asi/gpt-fr-cased-small`|`117M`|[[link]](https://huggingface.co/asi/gpt-fr-cased-small)|``|
+|`Portuguese`|`pt`|`pierreguillou/gpt2-small-portuguese`|`117M`|[[link]](https://huggingface.co/pierreguillou/gpt2-small-portuguese)|``|
+|`Thai`|`th`|`flax-community/gpt2-base-thai`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-base-thai)|``|
+|`Japanese`|`ja`|`colorfulscoop/gpt2-small-ja`|`117M`|[[link]](https://huggingface.co/colorfulscoop/gpt2-small-ja)|``|
+|`Korean`|`ko`|`skt/kogpt2-base-v2`<br>`skt/ko-gpt-trinity-1.2B-v0.5`|`117M`<br>`1.6B`|[[link]](https://huggingface.co/skt/kogpt2-base-v2/tree/main)<br>[[link]](https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5)|``<br>``|
+|`Chinese`|`zh`|`uer/gpt2-chinese-cluecorpussmall`|`117M`|[[link]](https://huggingface.co/uer/gpt2-chinese-cluecorpussmall)|``|
+|`Indonesian`|`id`|`cahya/gpt2-small-indonesian-522M`<br>`flax-community/gpt2-medium-indonesian`<br>`cahya/gpt2-large-indonesian-522M`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/cahya/gpt2-small-indonesian-522M)<br>[[link]](https://huggingface.co/flax-community/gpt2-medium-indonesian)<br>[[link]](https://huggingface.co/cahya/gpt2-large-indonesian-522M/tree/main)|``<br>``<br>``|
 |`Bengali`|`bn`|`flax-community/gpt2-bengali`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-bengali)|`0.62`|
 |`Hindi`|`hi`|`surajp/gpt2-hindi`|`117M`|[[link]](https://huggingface.co/surajp/gpt2-hindi)|`0.62`|
 |`Arabic`|`ar`|`akhooli/gpt2-small-arabic`<br>`aubmindlab/aragpt2-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/akhooli/gpt2-small-arabic)<br>[[link]](https://huggingface.co/aubmindlab/aragpt2-medium)|`0.56`<br>`0.67`|
