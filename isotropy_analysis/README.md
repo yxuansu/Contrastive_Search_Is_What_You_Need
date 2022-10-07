@@ -57,12 +57,14 @@ In the following Table, we provide the models that we use in our experiments.
 |`Korean`|`ko`|`skt/kogpt2-base-v2`<br>`skt/ko-gpt-trinity-1.2B-v0.5`|`117M`<br>`1.6B`|[[link]](https://huggingface.co/skt/kogpt2-base-v2/tree/main)<br>[[link]](https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5)|``<br>``|
 |`Chinese`|`zh`|`uer/gpt2-chinese-cluecorpussmall`|`117M`|[[link]](https://huggingface.co/uer/gpt2-chinese-cluecorpussmall)|``|
 |`Indonesian`|`id`|`cahya/gpt2-small-indonesian-522M`<br>`flax-community/gpt2-medium-indonesian`<br>`cahya/gpt2-large-indonesian-522M`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/cahya/gpt2-small-indonesian-522M)<br>[[link]](https://huggingface.co/flax-community/gpt2-medium-indonesian)<br>[[link]](https://huggingface.co/cahya/gpt2-large-indonesian-522M/tree/main)|``<br>``<br>``|
-|`Bengali`|`bn`|`flax-community/gpt2-bengali`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-bengali)|`0.62`|
-|`Hindi`|`hi`|`surajp/gpt2-hindi`|`117M`|[[link]](https://huggingface.co/surajp/gpt2-hindi)|`0.62`|
-|`Arabic`|`ar`|`akhooli/gpt2-small-arabic`<br>`aubmindlab/aragpt2-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/akhooli/gpt2-small-arabic)<br>[[link]](https://huggingface.co/aubmindlab/aragpt2-medium)|`0.56`<br>`0.67`|
-|`German`|`de`|`ml6team/gpt2-small-german-finetune-oscar`<br>`ml6team/gpt2-medium-german-finetune-oscar`|`117M`<br>`345M`|[[link]](https://huggingface.co/ml6team/gpt2-small-german-finetune-oscar)<br>[[link]](https://huggingface.co/ml6team/gpt2-medium-german-finetune-oscar)|`0.83`<br>`0.81`|
-|`Dutch`|`nl`|`ml6team/gpt2-small-dutch-finetune-oscar`<br>`ml6team/gpt2-medium-dutch-finetune-oscar`|`117M`<br>`345M`|[[link]](https://huggingface.co/ml6team/gpt2-small-dutch-finetune-oscar)<br>[[link]](https://huggingface.co/ml6team/gpt2-medium-dutch-finetune-oscar)|`0.79`<br>`0.79`|
-|`Russian`|`ru`|`sberbank-ai/rugpt3small_based_on_gpt2`<br>`sberbank-ai/rugpt3medium_based_on_gpt2`<br>`sberbank-ai/rugpt3large_based_on_gpt2`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/sberbank-ai/rugpt3small_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3medium_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3large_based_on_gpt2)|`0.67`<br>`0.73`<br>`0.77`|
-|`Italian`|`it`|`LorenzoDeMattei/GePpeTto`|`117M`|[[link]](https://huggingface.co/LorenzoDeMattei/GePpeTto)|`0.70`|
+|`Bengali`|`bn`|`flax-community/gpt2-bengali`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-bengali)|``|
+|`Hindi`|`hi`|`surajp/gpt2-hindi`|`117M`|[[link]](https://huggingface.co/surajp/gpt2-hindi)|``|
+|`Arabic`|`ar`|`akhooli/gpt2-small-arabic`<br>`aubmindlab/aragpt2-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/akhooli/gpt2-small-arabic)<br>[[link]](https://huggingface.co/aubmindlab/aragpt2-medium)|``<br>``|
+|`German`|`de`|`ml6team/gpt2-small-german-finetune-oscar`<br>`ml6team/gpt2-medium-german-finetune-oscar`|`117M`<br>`345M`|[[link]](https://huggingface.co/ml6team/gpt2-small-german-finetune-oscar)<br>[[link]](https://huggingface.co/ml6team/gpt2-medium-german-finetune-oscar)|``<br>``|
+|`Dutch`|`nl`|`ml6team/gpt2-small-dutch-finetune-oscar`<br>`ml6team/gpt2-medium-dutch-finetune-oscar`|`117M`<br>`345M`|[[link]](https://huggingface.co/ml6team/gpt2-small-dutch-finetune-oscar)<br>[[link]](https://huggingface.co/ml6team/gpt2-medium-dutch-finetune-oscar)|``<br>``|
+|`Russian`|`ru`|`sberbank-ai/rugpt3small_based_on_gpt2`<br>`sberbank-ai/rugpt3medium_based_on_gpt2`<br>`sberbank-ai/rugpt3large_based_on_gpt2`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/sberbank-ai/rugpt3small_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3medium_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3large_based_on_gpt2)|``<br>``<br>``|
+|`Italian`|`it`|`LorenzoDeMattei/GePpeTto`|`117M`|[[link]](https://huggingface.co/LorenzoDeMattei/GePpeTto)|``|
+
+#### Acknowledgements
 
 We thank the research community for open-sourcing these wonderful language models!
