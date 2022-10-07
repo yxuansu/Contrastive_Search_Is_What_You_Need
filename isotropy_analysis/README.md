@@ -30,17 +30,12 @@ chmod +x ./inference.sh
 The arguments are as follows:
 * `--test_path`: The file path of the test data.
 * `--max_len`: The maximum length of a test sequence.
-* `--language_code`: The language code of the specific language model. Refer to <a href='#language_code_and_model_card'>Section 3</a> for more details.
-* `--evaluation_method`: The decoding method that used to generate the result and it should be one of [`beam`, `nucleus`, `contrastive`].
-* `--model_name`: The CodeGen model that used to generate the result and it should be one of [`Salesforce/codegen-350M-mono`, `Salesforce/codegen-2B-mono`]
+* `--language_code`: The language code of the specific language model. See <a href='#language_code_and_model_card'>Section 3</a> for more details.
+* `--model_name`: The model name of the huggingface model. See <a href='#language_code_and_model_card'>Section 3</a> for more details.
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
 
-    --test_path ../../data/wit/wit_test_set.json\
-     256\
-     \
-    --model_name \
-    --save_path_prefix ../inference_results/
+**[Note]** After completing the inference, the inferenced result will be saved in the directory of `save_path_prefix + r'/{}/'.format(language_code)`.
 
 ****
 <span id='language_code_and_model_card'/>
