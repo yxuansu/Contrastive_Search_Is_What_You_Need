@@ -44,7 +44,7 @@ The arguments are as follows:
 In the following Table, we provide the models that we use in our experiments. 
 
 
-|Language|Model Type|Language Code|Model Name|Model Size|Model Card|Isotropy|
+|Language|Model Architecture|Language Code|Model Name|Model Size|Model Card|Isotropy|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |`English`|`GPT`|`en`|`gpt2`<br>`gpt2-medium`<br>`gpt2-large`<br>`gpt2-xl`|`117M`<br>`345M`<br>`774M`<br>`1.6B`|[[link]](https://huggingface.co/gpt2)<br>[[link]](https://huggingface.co/gpt2-medium)<br>[[link]](https://huggingface.co/gpt2-large)<br>[[link]](https://huggingface.co/gpt2-xl)|`0.10`<br>`0.25`<br>`0.70`<br>`0.72`|
 |`English`|`GPT-Neo`|`en`|`EleutherAI/gpt-neo-125M`<br>`EleutherAI/gpt-neo-1.3B`<br>`EleutherAI/gpt-neo-2.7B`|`125M`<br>`1.3B`<br>`2.7B`|[[link]](https://huggingface.co/EleutherAI/gpt-neo-125M)<br>[[link]](https://huggingface.co/EleutherAI/gpt-neo-1.3B)<br>[[link]](https://huggingface.co/EleutherAI/gpt-neo-2.7B)|`0.68`<br>`0.55`<br>`0.60`|
