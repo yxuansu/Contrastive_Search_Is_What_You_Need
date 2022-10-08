@@ -62,8 +62,8 @@ In the following Table, we provide the models that we use in our experiments.
 |`Arabic`|`GPT`|`ar`|`akhooli/gpt2-small-arabic`<br>`aubmindlab/aragpt2-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/akhooli/gpt2-small-arabic)<br>[[link]](https://huggingface.co/aubmindlab/aragpt2-medium)|`0.53`<br>`0.64`|
 |`German`|`GPT`|`de`|`ml6team/gpt2-small-german-finetune-oscar`<br>`ml6team/gpt2-medium-german-finetune-oscar`|`117M`<br>`345M`|[[link]](https://huggingface.co/ml6team/gpt2-small-german-finetune-oscar)<br>[[link]](https://huggingface.co/ml6team/gpt2-medium-german-finetune-oscar)|`0.83`<br>`0.81`|
 |`Dutch`|`GPT`|`nl`|`ml6team/gpt2-small-dutch-finetune-oscar`<br>`ml6team/gpt2-medium-dutch-finetune-oscar`|`117M`<br>`345M`|[[link]](https://huggingface.co/ml6team/gpt2-small-dutch-finetune-oscar)<br>[[link]](https://huggingface.co/ml6team/gpt2-medium-dutch-finetune-oscar)|`0.80`<br>`0.79`|
-|`Russian`|`GPT`|`ru`|`sberbank-ai/rugpt3small_based_on_gpt2`<br>`sberbank-ai/rugpt3medium_based_on_gpt2`<br>`sberbank-ai/rugpt3large_based_on_gpt2`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/sberbank-ai/rugpt3small_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3medium_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3large_based_on_gpt2)|`0.67`<br>`0.72`<br>``|
-|`Italian`|`GPT`|`it`|`LorenzoDeMattei/GePpeTto`|`117M`|[[link]](https://huggingface.co/LorenzoDeMattei/GePpeTto)|``|
+|`Russian`|`GPT`|`ru`|`sberbank-ai/rugpt3small_based_on_gpt2`<br>`sberbank-ai/rugpt3medium_based_on_gpt2`<br>`sberbank-ai/rugpt3large_based_on_gpt2`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/sberbank-ai/rugpt3small_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3medium_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3large_based_on_gpt2)|`0.67`<br>`0.72`<br>`0.77`|
+|`Italian`|`GPT`|`it`|`LorenzoDeMattei/GePpeTto`|`117M`|[[link]](https://huggingface.co/LorenzoDeMattei/GePpeTto)|`0.69`|
 
 ### Acknowledgements
 
