@@ -54,8 +54,8 @@ In the following Table, we provide the models that we use in our experiments.
 |`Portuguese`|`GPT`|`pt`|`pierreguillou/gpt2-small-portuguese`|`117M`|[[link]](https://huggingface.co/pierreguillou/gpt2-small-portuguese)|`0.77`|
 |`Thai`|`GPT`|`th`|`flax-community/gpt2-base-thai`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-base-thai)|`0.74`|
 |`Japanese`|`GPT`|`ja`|`colorfulscoop/gpt2-small-ja`|`117M`|[[link]](https://huggingface.co/colorfulscoop/gpt2-small-ja)|`0.72`|
-|`Korean`|`GPT`|`ko`|`skt/kogpt2-base-v2`<br>`skt/ko-gpt-trinity-1.2B-v0.5`|`117M`<br>`1.6B`|[[link]](https://huggingface.co/skt/kogpt2-base-v2/tree/main)<br>[[link]](https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5)|``<br>``|
-|`Chinese`|`GPT`|`zh`|`uer/gpt2-chinese-cluecorpussmall`|`117M`|[[link]](https://huggingface.co/uer/gpt2-chinese-cluecorpussmall)|``|
+|`Korean`|`GPT`|`ko`|`skt/kogpt2-base-v2`<br>`skt/ko-gpt-trinity-1.2B-v0.5`|`117M`<br>`1.6B`|[[link]](https://huggingface.co/skt/kogpt2-base-v2/tree/main)<br>[[link]](https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5)|`0.58`<br>`0.68`|
+|`Chinese`|`GPT`|`zh`|`uer/gpt2-chinese-cluecorpussmall`|`117M`|[[link]](https://huggingface.co/uer/gpt2-chinese-cluecorpussmall)|`0.66`|
 |`Indonesian`|`GPT`|`id`|`cahya/gpt2-small-indonesian-522M`<br>`flax-community/gpt2-medium-indonesian`<br>`cahya/gpt2-large-indonesian-522M`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/cahya/gpt2-small-indonesian-522M)<br>[[link]](https://huggingface.co/flax-community/gpt2-medium-indonesian)<br>[[link]](https://huggingface.co/cahya/gpt2-large-indonesian-522M/tree/main)|``<br>``<br>``|
 |`Bengali`|`GPT`|`bn`|`flax-community/gpt2-bengali`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-bengali)|``|
 |`Hindi`|`GPT`|`hi`|`surajp/gpt2-hindi`|`117M`|[[link]](https://huggingface.co/surajp/gpt2-hindi)|``|
