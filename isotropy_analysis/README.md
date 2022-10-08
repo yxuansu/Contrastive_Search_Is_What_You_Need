@@ -65,6 +65,6 @@ In the following Table, we provide the models that we use in our experiments.
 |`Russian`|`GPT`|`ru`|`sberbank-ai/rugpt3small_based_on_gpt2`<br>`sberbank-ai/rugpt3medium_based_on_gpt2`<br>`sberbank-ai/rugpt3large_based_on_gpt2`|`117M`<br>`345M`<br>`774M`|[[link]](https://huggingface.co/sberbank-ai/rugpt3small_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3medium_based_on_gpt2)<br>[[link]](https://huggingface.co/sberbank-ai/rugpt3large_based_on_gpt2)|``<br>``<br>``|
 |`Italian`|`GPT`|`it`|`LorenzoDeMattei/GePpeTto`|`117M`|[[link]](https://huggingface.co/LorenzoDeMattei/GePpeTto)|``|
 
-#### Acknowledgements
+### Acknowledgements
 
 We thank the research community for open-sourcing these wonderful language models!
