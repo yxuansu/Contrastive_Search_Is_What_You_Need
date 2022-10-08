@@ -4,14 +4,14 @@
 ****
 
 ### Catalogue:
-* <a href='#wit'>1. WIT</a>
-* <a href='#xsum'>2. XSum</a>
+* <a href='#wit'>1. WIT Benchmark</a>
+* <a href='#xsum'>2. XSum Benchmark</a>
 
 
 ****
 <span id='wit'/>
 
-#### 1. WIT:
+#### 1. WIT Benchmark:
 
 Unzip the file (wit.zip) under the current directory.
 
@@ -26,7 +26,7 @@ Unzip the file (wit.zip) under the current directory.
 ****
 <span id='xsum'/>
 
-#### 2. XSum:
+#### 2. XSum Benchmark:
 We provide the in-context learning examples as well as the test set of XSum benchmark that are used in our experiments.
 
 > **** The directory looks like
