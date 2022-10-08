@@ -13,7 +13,7 @@
 <span id='data_preparation'/>
 
 #### 1. Data Preparation: <a href='#all_catelogue'>[Back to Top]</a>
-Before running the experiments, please make sure you have downloaded the WIT dataset as instructed [[here]](../data/README.md#1-wit).
+Before running the experiments, please make sure you have downloaded the WIT dataset as instructed [[here]](../data/README.md#1-wit-benchmark).
 
 
 ****
