@@ -51,7 +51,7 @@ In the following Table, we provide the models that we use in our experiments.
 |`English`|`OPT`|`en`|`facebook/opt-125m`<br>`facebook/opt-350m`<br>`facebook/opt-1.3b`<br>`facebook/opt-6.7b`<br>`facebook/opt-13b`|`125M`<br>`350M`<br>`1.3B`<br>`6.7B`<br>`13B`|[[link]](https://huggingface.co/facebook/opt-125m)<br>[[link]](https://huggingface.co/facebook/opt-350m)<br>[[link]](https://huggingface.co/facebook/opt-1.3b)<br>[[link]](https://huggingface.co/facebook/opt-6.7b)<br>[[link]](https://huggingface.co/facebook/opt-13b)|`0.75`<br>`0.69`<br>`0.75`<br>`0.70`<br>`0.66`|
 |`Spanish`|`GPT`|`es`|`datificate/gpt2-small-spanish`<br>`DeepESP/gpt2-spanish-medium`|`117M`<br>`345M`|[[link]](https://huggingface.co/datificate/gpt2-small-spanish)<br>[[link]](https://huggingface.co/DeepESP/gpt2-spanish-medium)|`0.77`<br>`0.76`|
 |`French`|`GPT`|`fr`|`asi/gpt-fr-cased-small`|`117M`|[[link]](https://huggingface.co/asi/gpt-fr-cased-small)|`0.76`|
-|`Portuguese`|`GPT`|`pt`|`pierreguillou/gpt2-small-portuguese`|`117M`|[[link]](https://huggingface.co/pierreguillou/gpt2-small-portuguese)|``|
+|`Portuguese`|`GPT`|`pt`|`pierreguillou/gpt2-small-portuguese`|`117M`|[[link]](https://huggingface.co/pierreguillou/gpt2-small-portuguese)|`0.77`|
 |`Thai`|`GPT`|`th`|`flax-community/gpt2-base-thai`|`117M`|[[link]](https://huggingface.co/flax-community/gpt2-base-thai)|``|
 |`Japanese`|`GPT`|`ja`|`colorfulscoop/gpt2-small-ja`|`117M`|[[link]](https://huggingface.co/colorfulscoop/gpt2-small-ja)|``|
 |`Korean`|`GPT`|`ko`|`skt/kogpt2-base-v2`<br>`skt/ko-gpt-trinity-1.2B-v0.5`|`117M`<br>`1.6B`|[[link]](https://huggingface.co/skt/kogpt2-base-v2/tree/main)<br>[[link]](https://huggingface.co/skt/ko-gpt-trinity-1.2B-v0.5)|``<br>``|
