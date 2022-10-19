@@ -8,7 +8,7 @@
 * <a href='#benchmark'>1. Benchmark</a>
 * <a href='#inference'>2. Inference with Different Decoding Methods</a>
 * <a href='#evaluation'>3. Evaluation</a>
-    * <a href='#diversity_mauve_gen_length'>3.1. Diversity, MAUVE, Generation Length</a>
+  * <a href='#diversity_mauve_gen_length'>3.1. Diversity, MAUVE, Generation Length</a>
 
 
 ****
@@ -53,7 +53,17 @@ The arguments are as follows:
 
 ##### 3.1. Diversity, MAUVE, Generation Length: 
 
-To compute MAUVE score, please first install the required package following the [instructions]((https://github.com/krishnap25/mauve#installation)) by the authors.
+Please first install the required package following the [instructions]((https://github.com/krishnap25/mauve#installation)) provided by the authors.
+
+To compute the diversity, MAUVE, and gen-ppl results, please run the following commands:
+```yaml
+cd ./scripts/
+chmod +x ./measure_diversity_mauve_gen_length.sh
+./measure_diversity_mauve_gen_length.sh
+```
+
+The argument is as follows:
+* `--test_path`: The path that stores the inferenced results from <a href='#inference'>Section 2.</a>.
 
 
 
