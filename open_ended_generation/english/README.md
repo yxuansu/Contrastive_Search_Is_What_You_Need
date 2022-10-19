@@ -53,6 +53,8 @@ The arguments are as follows:
 
 ##### 3.1. Diversity, MAUVE, Generation Length: 
 
+To compute MAUVE score, please first install the required package following the [instructions]((https://github.com/krishnap25/mauve#installation)) by the authors.
+
 
 
 
