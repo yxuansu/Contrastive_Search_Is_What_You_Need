@@ -6,7 +6,7 @@
 
 ### Catalogue:
 * <a href='#benchmark'>1. Evaluation Benchmark</a>
-* <a href='#measuring'>2. Measure Isotropy</a>
+* <a href='#inference'>2. Inference with Different Decoding Methods</a>
 * <a href='#language_code_and_model_card'>3. Language Code and Model Card</a>
 
 ****
@@ -17,9 +17,13 @@ We provide the held-out set of WebText benchmark at [here](../../data/webtext/).
 
 
 ****
-<span id='measuring'/>
+<span id='inference'/>
 
-#### 2. Measure Isotropy: <a href='#all_catelogue'>[Back to Top]</a>
+#### 2. Inference with Different Decoding Methods: <a href='#all_catelogue'>[Back to Top]</a>
+
+To generate text with different decoding methods, please run the following commands:
+
+
 To measure the isotropy of a specific language model, please run the following commands:
 ```yaml
 cd ./scripts/
