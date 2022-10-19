@@ -5,14 +5,14 @@
 <span id='all_catelogue'/>
 
 ### Catalogue:
-* <a href='#benchmark'>1. Evaluation Benchmark</a>
+* <a href='#benchmark'>1. Benchmark</a>
 * <a href='#inference'>2. Inference with Different Decoding Methods</a>
 * <a href='#language_code_and_model_card'>3. Language Code and Model Card</a>
 
 ****
 <span id='benchmark'/>
 
-#### 1. Evaluation Benchmark: <a href='#all_catelogue'>[Back to Top]</a>
+#### 1. Benchmark: <a href='#all_catelogue'>[Back to Top]</a>
 We provide the held-out set of WebText benchmark at [here](../../data/webtext/).
 
 
