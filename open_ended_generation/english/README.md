@@ -29,23 +29,16 @@ chmod +x ./{}.sh
 ```
 where {} is in [`greedy`, `beam`, `topk`, `nucleus`, `contrastive`]. To get the results with typical sampling, please refer to the [code](https://github.com/cimeister/typical-sampling) released by the original authors.
 
-
-To measure the isotropy of a specific language model, please run the following commands:
-```yaml
-cd ./scripts/
-chmod +x ./inference.sh
-./inference.sh
-```
-
 The arguments are as follows:
-* `--test_path`: The file path of the test data.
-* `--max_len`: The maximum length of a test sequence.
-* `--language_code`: The language code of the specific language model. See <a href='#language_code_and_model_card'>Section 3</a> for more details.
-* `--model_name`: The model name of the huggingface model. See <a href='#language_code_and_model_card'>Section 3</a> for more details.
+* `--model_name`: The LMs used to generate text. In our experiments, we use `gpt2-large`.
+* `--data_path`: The file path of the evaluated benchmark.
+* `--decoding_method`: The decoding method used to generate text and it should be within [`greedy`, `beam`, `topk`, `nucleus`, `contrastive`].
+* `--prefix_len`: The length of the prefix text.
+* `--decoding_len`: The maximum length of the generated text. (The generation of text also ends upon producing the special end of document token.)
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
 
-**[Note]** After completing the inference, the inferenced result will be saved in the directory of `save_path_prefix + r'/{}/'.format(language_code)`.
+**[Note]** After completing the inference, the inferenced result will be saved in the directory of `save_path_prefix + r'/{}/{}/{}_result.json'.format(model_name, decoding_method, decoding_method)`.
 
 ****
 <span id='language_code_and_model_card'/>
