@@ -9,6 +9,7 @@
 * <a href='#inference'>2. Inference with Different Decoding Methods</a>
 * <a href='#evaluation'>3. Evaluation</a>
   * <a href='#diversity_mauve_gen_length'>3.1. Diversity, MAUVE, Generation Length</a>
+  * <a href='#coherence'>3.2. Coherence</a>
 
 
 ****
@@ -68,8 +69,25 @@ The argument is as follows:
 After the evaluation is completed, the results will be saved in the same directory as the `--test_path` (e.g. `./inference_results/gpt2-large/greedy/greedy_result_diversity_mauve_gen_length_result.json`).
 
 
+<span id='coherence'/>
+
+##### 3.2. Coherence: 
+
+To measure the coherence score, please run the following commands:
+```yaml
+cd ./scripts/
+chmod +x ./measure_coherence.sh
+./measure_coherence.sh
+```
+
+The argument is as follows:
+* `--opt_model_name`: The name of the OPT model. In our experiments, we use one of [`facebook/opt-125m`, `facebook/opt-2.7b`, `facebook/opt-13b`].
+* `--test_path`: The path that stores the inferenced results from <a href='#inference'>Section 2</a>.
+
+After the evaluation is completed, the results will be saved in the same directory as the `--test_path` (e.g. `./inference_results/gpt2-large/greedy/greedy_result_{}_coherence_result.json`, where {} is within [`opt-125m`, `opt-2.7b`, `opt-13b`]).
 
 
-### Acknowledgements
 
-We thank the research community for open-sourcing these wonderful language models!
+
+
+
