@@ -40,7 +40,7 @@ The arguments are as follows:
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
 
-**[Note]** After completing the inference, the inferenced result will be saved in the directory of `save_path_prefix + r'/{}/{}/{}_result.json'.format(model_name, decoding_method, decoding_method)`.
+After completing the inference, the inferenced result will be saved in the directory of `save_path_prefix + r'/{}/{}/{}_result.json'.format(model_name, decoding_method, decoding_method)`.
 
 **[Reproducibility]** To make our experiments precisely reproducible, we have all the inferenced results in the folder `./inference_results/`.
 
@@ -63,7 +63,9 @@ chmod +x ./measure_diversity_mauve_gen_length.sh
 ```
 
 The argument is as follows:
-* `--test_path`: The path that stores the inferenced results from <a href='#inference'>Section 2.</a>.
+* `--test_path`: The path that stores the inferenced results from <a href='#inference'>Section 2</a>.
+
+After the evaluation is completed, the results will be saved in the same directory as the `--test_path` (e.g. `./inference_results/gpt2-large/greedy/greedy_result_diversity_mauve_gen_length_result.json`).
 
 
 
