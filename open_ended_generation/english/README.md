@@ -51,7 +51,7 @@ The arguments are as follows:
 
 <span id='diversity_mauve_gen_length'/>
 
-##### 3.1. Diversity, MAUVE, Generation Length: <a href='#all_catelogue'>[Back to Top]</a>
+##### 3.1. Diversity, MAUVE, Generation Length: 
 
 
 
