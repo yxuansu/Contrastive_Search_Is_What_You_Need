@@ -7,7 +7,9 @@
 ### Catalogue:
 * <a href='#benchmark'>1. Benchmark</a>
 * <a href='#inference'>2. Inference with Different Decoding Methods</a>
-* <a href='#language_code_and_model_card'>3. Language Code and Model Card</a>
+* <a href='#evaluation'>3. Evaluation</a>
+    * <a href='#diversity_mauve_gen_length'>3.1. Diversity, MAUVE, Generation Length</a>
+
 
 ****
 <span id='benchmark'/>
@@ -43,10 +45,12 @@ The arguments are as follows:
 **[Reproducibility]** To make our experiments precisely reproducible, we have all the inferenced results in the folder `./inference_results/`.
 
 ****
-<span id='language_code_and_model_card'/>
+<span id='evaluation'/>
 
-#### 3. Language Code and Model Card: <a href='#all_catelogue'>[Back to Top]</a>
-In the following Table, we provide the models that we use in our experiments. 
+#### 3. Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
+
+<span id='diversity_mauve_gen_length'/>
+##### 3.1. Diversity, MAUVE, Generation Length: <a href='#all_catelogue'>[Back to Top]</a>
 
 
 
