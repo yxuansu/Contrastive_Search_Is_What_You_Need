@@ -22,6 +22,12 @@ We provide the held-out set of WebText benchmark at [here](../../data/webtext/).
 #### 2. Inference with Different Decoding Methods: <a href='#all_catelogue'>[Back to Top]</a>
 
 To generate text with different decoding methods, please run the following commands:
+```yaml
+cd ./scripts/
+chmod +x ./{}.sh
+./{}.sh
+```
+where {} is in [`greedy`, `beam`, `topk`, `nucleus`, `contrastive`]. To get the results with typical sampling, please refer to the [code](https://github.com/cimeister/typical-sampling) released by the original authors.
 
 
 To measure the isotropy of a specific language model, please run the following commands:
