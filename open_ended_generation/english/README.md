@@ -27,7 +27,7 @@ cd ./scripts/
 chmod +x ./{}.sh
 ./{}.sh
 ```
-where {} is in [`greedy`, `beam`, `topk`, `nucleus`, `contrastive`]. To get the results with typical sampling, please refer to the [code](https://github.com/cimeister/typical-sampling) released by the original authors.
+where {} is in [`greedy`, `beam`, `topk`, `nucleus`, `contrastive`]. To get the results with typical sampling, please refer to the [original code](https://github.com/cimeister/typical-sampling) released by the authors.
 
 The arguments are as follows:
 * `--model_name`: The LMs used to generate text. In our experiments, we use `gpt2-large`.
