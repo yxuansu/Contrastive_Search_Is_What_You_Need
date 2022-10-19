@@ -84,7 +84,7 @@ The argument is as follows:
 * `--opt_model_name`: The name of the OPT model. In our experiments, we use one of [`facebook/opt-125m`, `facebook/opt-2.7b`, `facebook/opt-13b`].
 * `--test_path`: The path that stores the inferenced results from <a href='#inference'>Section 2</a>.
 
-After the evaluation is completed, the results will be saved in the same directory as the `--test_path` (e.g. `./inference_results/gpt2-large/greedy/greedy_result_{}_coherence_result.json`, where {} is within [`opt-125m`, `opt-2.7b`, `opt-13b`]).
+After the evaluation is completed, the results will be saved in the same directory as the `--test_path` (e.g. `./inference_results/gpt2-large/greedy/greedy_result_{}_coherence_result.json`, where {} is within [`opt-125m`, `opt-2.7b`, `opt-13b`].).
 
 
 
