@@ -53,7 +53,7 @@ After completing the inference, the inferenced result will be saved in the direc
 
 ##### 3.1. Diversity, MAUVE, Generation Length: 
 
-Please first install the required package following the [instructions]((https://github.com/krishnap25/mauve#installation)) provided by the authors.
+**[Package Installation]** Please first install the required package following the [instructions]((https://github.com/krishnap25/mauve#installation)) provided by the authors.
 
 To compute the diversity, MAUVE, and gen-ppl results, please run the following commands:
 ```yaml
