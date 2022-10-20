@@ -16,7 +16,7 @@
 <span id='benchmark'/>
 
 #### 1. Benchmark: <a href='#all_catelogue'>[Back to Top]</a>
-We provide the test set of WIT benchmark at [here](../../data/). Please follow our [instructions](../../data/data#1-wit-benchmark) to prepare the data.
+We provide the test set of WIT benchmark at [here](../../data/). Please follow our [instructions](https://github.com/yxuansu/Contrastive_Search_Is_All_You_Need/tree/main/data#1-wit-benchmark) to prepare the data.
 
 
 ****
