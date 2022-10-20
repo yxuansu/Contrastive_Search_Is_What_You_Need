@@ -16,7 +16,7 @@
 <span id='benchmark'/>
 
 #### 1. Benchmark: <a href='#all_catelogue'>[Back to Top]</a>
-We provide the test set of WIT benchmark at [here](../../data/).
+We provide the test set of WIT benchmark at [here](../../data/). Please follow our [instructions](../../data#1-wit-benchmark) to prepare the data.
 
 
 ****
