@@ -143,4 +143,4 @@ The arguments are as follows:
 * `--split_num`: The random split of the training set. For zero-shot evaluation, it should be set as 1. For one/two-shot evaluations, it should be one of [`1`, `2`, `3`].
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
-**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + '/{}/{}/{}/'.format(evaluation_mode, opt_model_name, decoding_method)`
+**[Note]** After completing the inference, the inferenced results and evaluated results (i.e. ROUGE scores) will be saved in the directory of `save_path_prefix + '/{}/{}/{}/'.format(evaluation_mode, opt_model_name, decoding_method)`
