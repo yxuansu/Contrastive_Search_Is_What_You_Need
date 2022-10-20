@@ -32,5 +32,7 @@ The arguments are as follows:
 * `--model_name`: The CodeGen model that used to generate the result and it should be one of [`Salesforce/codegen-350M-mono`, `Salesforce/codegen-2B-mono`]
 * `--save_path_prefix`: The directory used to save the inferenced result.
 
-**[Note]** After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + r'/{}/{}/'.format(model_name, 
+After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + r'/{}/{}/'.format(model_name, 
         evaluation_method)`.
+
+**[Reproducibility]** To make our experiments precisely reproducible, we have all the inferenced results in the folder `./inference_results/`.
