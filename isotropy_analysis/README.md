@@ -1,7 +1,7 @@
 ## Measuring the Isotropy of Language Models
 
 
-<img src="./multilingual_language_model_isotropy.png" width="660" height="300">
+<img src="./multilingual_language_model_isotropy.png" width="660" height="250">
 
 
 ****
