@@ -25,14 +25,17 @@ chmod +x ./inference.sh
 ```
 
 The arguments are as follows:
-* `--test_path`: The file path of the test data.
+* `--dataset_path_prefix`: The directory path that saves the dataset.
+* `--evaluation_perl_script_path`: The directory path that stores the necessary evaluation script `multi-bleu.perl`.
+* `--benchmark_name`: The benchmark name.
+* `--translation_direction`: The direction of translation.
+* `--save_path_prefix`: The directory path that saves the inferenced and evaluation results.
 * `--decoding_len`: The number of generated tokens for each instance.
-* `--run_num`: The number of evaluation runs. It should be set as [`1`, `2`, `3`], respectively, if the user would like to test stochastic nucleus sampling for multiple (e.g. 3) runs.
-* `--evaluation_method`: The decoding method that used to generate the result and it should be one of [`beam`, `nucleus`, `contrastive`].
-* `--model_name`: The CodeGen model that used to generate the result and it should be one of [`Salesforce/codegen-350M-mono`, `Salesforce/codegen-2B-mono`]
-* `--save_path_prefix`: The directory used to save the inferenced result.
+* `--decoding_method`: The decoding method that used to generate the result and it should be one of [`beam`, `nucleus`, `contrastive`].
+* `--model_name`: The model name of the OPT model. In our experiments, it is one of [`facebook/opt-125m`, `facebook/opt-350m`, `facebook/opt-1.3b`, `facebook/opt-2.7b`],
+* `--shot`: The number of in-context examples provided to the OPT model. In our experiments, it is one of [`1`, `8`].
+* `--split_num`: The split of random selection of in-context examples. In our experiments, it is one of [`1`, `2`, `3`].
 
-After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + r'/{}/{}/'.format(model_name, 
-        evaluation_method)`.
+After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + '/{}/{}/{}-shot/{}/{}/'.format(benchmark_name, translation_direction, shot, model_name, decoding_method)`.
 
-**[Reproducibility]** To make our experiments precisely reproducible, we have all the inferenced results in the folder `./inference_results/`.
+**[Reproducibility]** To make our experiments precisely reproducible, we have provided all our inferenced results in the folder `./inference_results/`.
