@@ -35,4 +35,4 @@ The arguments are as follows:
 After completing the inference, the inferenced and evaluated results will be saved in the directory of `save_path_prefix + r'/{}/{}/'.format(model_name, 
         evaluation_method)`.
 
-**[Reproducibility]** To make our experiments precisely reproducible, we have all the inferenced results in the folder `./inference_results/`.
+**[Reproducibility]** To make our experiments precisely reproducible, we have provided all our inferenced results in the folder `./inference_results/`.
