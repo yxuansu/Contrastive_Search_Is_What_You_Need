@@ -6,6 +6,7 @@
 ### Catalogue:
 * <a href='#wit'>1. WIT Benchmark</a>
 * <a href='#xsum'>2. XSum Benchmark</a>
+* <a href='#translation'>3. IWSLT14 De-En Benchmark</a>
 
 
 ****
@@ -42,3 +43,18 @@ We provide the in-context learning examples as well as the test set of XSum benc
             ├── xsum_train_two-shot-2.json # The second random two-shot in-context learning example.
             └── xsum_train_two-shot-3.json # The third random two-shot in-context learning example.
         └── xsum_test.json # The test set of XSum benchmark.
+        
+        
+****
+<span id='translation'/>
+
+#### 3. IWSLT14 De-En Benchmark:
+We provide the IWSLT14 De-En dataset that is used in our experiments. 
+
+> **** After unzipping, the directory looks like
+
+    .
+    ├── ./translation/iwslt14/de-to-en/                    
+        ├── train.json # The training set of IWSLT14 De-En dataset.
+        ├── validation.json # The validation set of IWSLT14 De-En dataset.
+        └── test.json # The test set of IWSLT14 De-En dataset.
