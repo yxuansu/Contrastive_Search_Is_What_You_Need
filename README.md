@@ -62,7 +62,7 @@ To be completed.
 
 <span id='install_simctg'/>
 
-###### 2.2.1. Install SimCTG Package: <a href='#all_catelogue'>[Back to Top]</a>
+###### 2.2.1. Install SimCTG Package: 
 
 To install the package, please run the following command:
 
