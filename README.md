@@ -27,6 +27,10 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 ### Catalogue:
 * <a href='#introduction'>1. Introduction</a>
 * <a href='#reproduce_examples'>2. Reproducing Examples Provided in the Paper</a>
+    * <a href='#use_transformers'>2.1. Using Huggingface Transformers</a>
+    * <a href='#use_simctg'>2.2. Using SimCTG Package</a>
+        * <a href='#install_simctg'>2.2.1. Install SimCTG Package</a>
+    
 
 ****
 
@@ -35,6 +39,13 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 #### 1. Introduction: <a href='#all_catelogue'>[Back to Top]</a>
 
 ****
+
+
+<span id='reproduce_examples'/>
+
+
+#### 2. Reproducing Examples Provided in the Paper: <a href='#all_catelogue'>[Back to Top]</a>
+In this section, we demonstrate two ways of reproducing the examples provided in our paper.
 
 
 
