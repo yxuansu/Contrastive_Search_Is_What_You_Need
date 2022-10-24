@@ -53,6 +53,14 @@ In this section, we demonstrate two ways of reproducing the examples provided in
 
 To be completed.
 
+<span id='use_simctg'/>
+
+##### 2.2. Using SimCTG Package:
+
+<span id='install_simctg'/>
+
+###### 2.2.1. Install SimCTG Package:
+
 
 
 pip install simctg --upgrade
