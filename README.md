@@ -61,6 +61,10 @@ To be completed.
 
 ###### 2.2.1. Install SimCTG Package:
 
+To install the package, please run the following command:
 
-
+```yaml
 pip install simctg --upgrade
+```
+
+
