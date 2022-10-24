@@ -47,6 +47,11 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 #### 2. Reproducing Examples Provided in the Paper: <a href='#all_catelogue'>[Back to Top]</a>
 In this section, we demonstrate two ways of reproducing the examples provided in our paper.
 
+<span id='use_transformers'/>
+
+##### 2.1. Using Huggingface Transformers:
+
+To be completed.
 
 
 
