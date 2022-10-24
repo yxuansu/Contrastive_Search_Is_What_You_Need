@@ -26,7 +26,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 
 ### Catalogue:
 * <a href='#introduction'>1. Introduction</a>
-* <a href='#reproduce_examples'>2. Reproducing examples provided in the paper</a>
+* <a href='#reproduce_examples'>2. Reproducing Examples Provided in the Paper</a>
 
 ****
 
