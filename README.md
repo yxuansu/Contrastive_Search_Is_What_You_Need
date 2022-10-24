@@ -197,10 +197,10 @@ apply the same techniques to other problems."
 
 In addition to the win in Go, DeepMind has also developed an AI system that can learn to play a
 number of different games, including poker, Go, and chess. This AI system, called Tarsier, was
-developed in partnership with Carnegie Mellon University and the University of California, Berkeley,
-and is being used to teach computer vision and machine learning to identify objects in images and
-recognize speech in natural language. Tarsier has been trained to play the game of Go and other games
-on a number of different platforms...
+developed in partnership with Carnegie Mellon University and the University of California, 
+Berkeley, and is being used to teach computer vision and machine learning to identify objects in
+images and recognize speech in natural language. Tarsier has been trained to play the game of Go
+and other games on a number of different platforms...
 ----------------------------------------------------------------------------------------------------
 ```
 </details>
