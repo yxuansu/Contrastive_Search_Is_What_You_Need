@@ -1,7 +1,7 @@
-# Contrastive Search Is What You Need In Neural Text Generation
+# Contrastive Search Is What You Need For Neural Text Generation
 **Authors**: Yixuan Su and Nigel Collier
 
-This repository contains code other related resources of our paper ["Contrastive Search Is What You Need In Neural Text Generation"]().
+This repository contains code other related resources of our paper ["Contrastive Search Is What You Need For Neural Text Generation"]().
 
 ****
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
