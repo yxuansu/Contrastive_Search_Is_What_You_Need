@@ -32,6 +32,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
         * <a href='#install_simctg'>2.2.1. Install SimCTG Package</a>
         * <a href='#simctg_table_1'>2.2.2. Example in Table 1</a>
         * <a href='#simctg_table_8'>2.2.3. Example in Table 8 at Appendix A</a>
+        * <a href='#simctg_table_9'>2.2.4. Example in Table 9 at Appendix A</a>
     
 
 ****
@@ -201,6 +202,80 @@ developed in partnership with Carnegie Mellon University and the University of C
 Berkeley, and is being used to teach computer vision and machine learning to identify objects in
 images and recognize speech in natural language. Tarsier has been trained to play the game of Go
 and other games on a number of different platforms...
+----------------------------------------------------------------------------------------------------
+```
+</details>
+
+<span id='simctg_table_9'/>
+
+###### 2.2.4. Example in Table 9 at Appendix A: <a href='#all_catelogue'>[Back to Top]</a>
+
+To reproduce our example provided in Table 9 at Appendix A, please run the following command:
+```python
+# load the LMs
+import torch
+from simctg.simctggpt import SimCTGGPT
+model_name = r'gpt2-large'
+model = SimCTGGPT(model_name)
+model.eval()
+tokenizer = model.tokenizer
+eos_token_id = tokenizer.eos_token_id
+
+# prepare the prefix
+prefix_text = r"In a shocking finding, scientist discovered a herd of unicorns living in a remote, previously unexplored valley, in the Andes Mountains. Even more surprising to the researchers was the fact that the unicorns spoke perfect English."
+tokens = tokenizer.tokenize(prefix_text)
+input_ids = tokenizer.convert_tokens_to_ids(tokens)
+input_ids = torch.LongTensor(input_ids).view(1,-1)
+
+# generate the result with contrastive search
+beam_width, alpha, decoding_len = 4, 0.6, 512
+output = model.fast_contrastive_search(input_ids=input_ids, beam_width=beam_width, 
+                                       alpha=alpha, decoding_len=decoding_len,
+                                      end_of_sequence_token_id = eos_token_id, early_stop = True) 
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(output))
+print("" + 100 * '-')
+```
+
+<details>
+<summary><b>Model Output: [click to expand]</b></summary>
+  
+```
+Output:
+----------------------------------------------------------------------------------------------------  
+In a shocking finding, scientist discovered a herd of unicorns living in a remote, previously
+unexplored valley, in the Andes Mountains. Even more surprising to the researchers was the fact
+that the unicorns spoke perfect English.
+
+According to the BBC, a team of scientists led by Dr David MacKay, from the University of
+Bristol, spent two years searching for the unicorn herd, which they discovered during a survey
+of the area.
+
+"It's a very rare find," MacKay told the BBC. "There are a few in the Himalayas, but this is
+the first time we've been able to find one in such a remote area."
+
+The team was surprised to find a herd of unicorns living in a region that has been known to be
+a hotbed of poaching, with many of the animals poached for their horns, which are used in
+traditional Chinese medicine to treat everything from rheumatism to cancer.
+
+"We knew that the area was rich in rhino horn, but we had no idea how many there were, or what
+they were doing there," MacKay said. "This is an area of high poaching pressure, and we wanted
+to find out what was going on."
+
+In order to do so, the team used GPS collars to track the animals as they moved around the
+mountain and the surrounding area. The GPS data was then compared with information gathered
+from local villagers, who had a wealth of information about the animals' movements, including
+where they were eating, what they were doing at night, and how much time they spent in the
+mountains each day.
+
+After analyzing the data, the team determined that the herd consisted of at least three species
+of unicorns, including a male and two females. One of the females was the mother of the male,
+and the other two were her daughters. All three had the same horn color, which is believed to
+be a sign of purity in the animal kingdom.
+
+While the discovery is exciting, it's not the first time scientists have discovered an animal
+that speaks English. Last year, scientists discovered a species of porcupine that can be heard
+by humans, and has been dubbed "Porcupine Man" for his ability to converse with the human race.
 ----------------------------------------------------------------------------------------------------
 ```
 </details>
