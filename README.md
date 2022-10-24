@@ -108,19 +108,20 @@ Output:
 ----------------------------------------------------------------------------------------------------
 Kobe Bryant is the best player in the world.
 
-I know this is a bold statement to make, but it's true. He may have won a lot of games, but his impact
-on the game is immeasurable. Kobe is one of the most popular players in the world, and that's no small
-feat when you consider how many people play video games, watch sports, listen to music, and have social
-media accounts.
+I know this is a bold statement to make, but it's true. He may have won a lot of games, but his
+impact on the game is immeasurable. Kobe is one of the most popular players in the world, and
+that's no small feat when you consider how many people play video games, watch sports, listen
+to music, and have social media accounts.
 
-Kobe has made a career out of being a role model for young people, and he does an amazing job of that
-every time he steps on the court. His career stats are impressive, but what makes him stand out is the
-way he goes about his business. When he's on the court, he's the center of attention, and it's easy to
-see why.
+Kobe has made a career out of being a role model for young people, and he does an amazing job
+of that every time he steps on the court. His career stats are impressive, but what makes him
+stand out is the way he goes about his business. When he's on the court, he's the center of
+attention, and it's easy to see why.
 
-The Lakers' All-Star point guard wears a smile on his face like no other. He's always in the right place
-at the right time, making the right play at the right time, and doing the right thing in the right way.
-He's not afraid to get his hands dirty, and he never shies away from a physical confrontation.
+The Lakers' All-Star point guard wears a smile on his face like no other. He's always in the
+right place at the right time, making the right play at the right time, and doing the right
+thing in the right way. He's not afraid to get his hands dirty, and he never shies away from
+a physical confrontation.
 
 Kobe's personality is something that can't be taught, and it's a big reason why...
 ----------------------------------------------------------------------------------------------------
