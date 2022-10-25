@@ -7,6 +7,7 @@
 * <a href='#wit'>1. WIT Benchmark</a>
 * <a href='#xsum'>2. XSum Benchmark</a>
 * <a href='#translation'>3. IWSLT14 De-En Benchmark</a>
+* <a href='#webtext'>4. WebText Benchmark</a>
 
 
 ****
@@ -58,3 +59,16 @@ We provide the IWSLT14 De-En dataset that is used in our experiments.
         ├── train.json # The training set of IWSLT14 De-En dataset.
         ├── validation.json # The validation set of IWSLT14 De-En dataset.
         └── test.json # The test set of IWSLT14 De-En dataset.
+ 
+****
+<span id='webtext'/>
+
+#### 4. WebText Benchmark:
+ 
+We provide the held-out set of WebText.
+
+> **** The directory looks like
+
+    .
+    ├── ./webtext/                    
+        └── webtext.test.jsonl # The held-out set of the WebText benchmark.
