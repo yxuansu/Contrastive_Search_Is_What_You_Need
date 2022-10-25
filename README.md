@@ -79,6 +79,7 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 model_name = 'gpt2-large'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+model.eval()
 
 # prepare the prefix
 prefix_text = r"Kobe Bryant is"
@@ -132,6 +133,7 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 model_name = 'gpt2-large'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+model.eval()
 
 # prepare the prefix
 prefix_text = r'DeepMind Company is'
@@ -200,6 +202,7 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 model_name = 'gpt2-large'
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+model.eval()
 
 # prepare the prefix
 prefix_text = r"In a shocking finding, scientist discovered a herd of unicorns living in a remote, previously unexplored valley, in the Andes Mountains. Even more surprising to the researchers was the fact that the unicorns spoke perfect English."
