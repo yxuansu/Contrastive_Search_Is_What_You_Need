@@ -27,7 +27,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 ****
 
 ### News:
-* [2022/10/xx]  is publicly released!
+* [2022/10/26] "Contrastive Search Is What You Need For Neural Text Generation" is publicly released!
 
 ****
 
