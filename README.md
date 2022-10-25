@@ -9,6 +9,13 @@ This repository contains code other related resources of our paper ["Contrastive
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
 
 ```bibtex
+@article{su2022contrastiveiswhatyouneed,
+  title={Contrastive Search Is What You Need For Neural Text Generation},
+  author={Su, Yixuan and Collier, Nigel},
+  journal={arXiv preprint},
+  year={2022}
+}
+
 @article{su2022contrastive,
   title={A Contrastive Framework for Neural Text Generation},
   author={Su, Yixuan and Lan, Tian and Wang, Yan and Yogatama, Dani and Kong, Lingpeng and Collier, Nigel},
