@@ -38,7 +38,6 @@ If you find our paper and resources useful, please kindly leave a star and cite 
         * <a href='#simctg_table_8'>2.2.3. Example in Table 8 at Appendix A</a>
         * <a href='#simctg_table_9'>2.2.4. Example in Table 9 at Appendix A</a>
     
-
 ****
 
 <span id='introduction'/>
