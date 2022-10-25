@@ -507,6 +507,12 @@ by humans, and has been dubbed "Porcupine Man" for his ability to converse with 
 
 The detailed tutorial on measuring the isotropy of LMs is provided [[here]](./isotropy_analysis/).
 
+**[Note]** To replicate our experimental results, please make sure you have installed the environment as
+```yaml
+pip install simctg --upgrade
+```
+
+
 ****
 
 <span id='open_ended_text_generation'/>
@@ -515,5 +521,9 @@ The detailed tutorial on measuring the isotropy of LMs is provided [[here]](./is
 
 The detailed tutorial on the experiments of open-ended text generation is provided [[here]](./open_ended_generation/).
 
+**[Note]** To replicate our experimental results, please make sure you have installed the environment as
+```yaml
+pip install simctg --upgrade
+```
 
 
