@@ -29,6 +29,9 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 * <a href='#reproduce_examples'>2. Reproducing Examples Provided in the Paper</a>
     * <a href='#use_transformers'>2.1. Using Huggingface Transformers</a>
         * <a href='#install_transformers'>2.1.1. Install Transformers Package</a>
+        * <a href='#transformers_table_1'>2.1.2. Example in Table 1</a>
+        * <a href='#transformers_table_8'>2.1.3. Example in Table 8 at Appendix A</a>
+        * <a href='#transformers_table_9'>2.1.4. Example in Table 9 at Appendix A</a>
     * <a href='#use_simctg'>2.2. Using SimCTG Package</a>
         * <a href='#install_simctg'>2.2.1. Install SimCTG Package</a>
         * <a href='#simctg_table_1'>2.2.2. Example in Table 1</a>
@@ -63,6 +66,58 @@ To install `transformers` from the source, please run the following command:
 ```yaml
 pip install git+https://github.com/huggingface/transformers
 ```
+
+<span id='transformers_table_1'/>
+
+###### 2.1.2. Example in Table 1: <a href='#all_catelogue'>[Back to Top]</a>
+
+To reproduce our example provided in Table 1, please run the following command:
+```python
+# load the LMs
+import torch
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+model_name = 'gpt2-large'
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+
+# prepare the prefix
+prefix_text = r"Kobe Bryant is"
+inputs = tokenizer(prefix_text, return_tensors='pt')
+
+# generate the result with contrastive search
+output = model.generate(**inputs, penalty_alpha=0.6, top_k=4, max_length=256)
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+print("" + 100 * '-')
+```
+
+<details>
+<summary><b>Model Output: [click to expand]</b></summary>
+  
+```
+Output:
+----------------------------------------------------------------------------------------------------
+Kobe Bryant is the best player in the world.
+
+I know this is a bold statement to make, but it's true. He may have won a lot of games, but his
+impact on the game is immeasurable. Kobe is one of the most popular players in the world, and
+that's no small feat when you consider how many people play video games, watch sports, listen
+to music, and have social media accounts.
+
+Kobe has made a career out of being a role model for young people, and he does an amazing job
+of that every time he steps on the court. His career stats are impressive, but what makes him
+stand out is the way he goes about his business. When he's on the court, he's the center of
+attention, and it's easy to see why.
+
+The Lakers' All-Star point guard wears a smile on his face like no other. He's always in the
+right place at the right time, making the right play at the right time, and doing the right
+thing in the right way. He's not afraid to get his hands dirty, and he never shies away from
+a physical confrontation.
+
+Kobe's personality is something that can't be taught, and it's a big reason why...
+----------------------------------------------------------------------------------------------------
+```
+</details>
 
 
 <span id='use_simctg'/>
