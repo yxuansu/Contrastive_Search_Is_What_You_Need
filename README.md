@@ -3,7 +3,7 @@
 
 This repository contains code other related resources of our paper ["Contrastive Search Is What You Need For Neural Text Generation"]().
 
-:star2: Also check out this awesome [[demo]](https://huggingface.co/spaces/joaogante/contrastive_search_generation) generously supported by Huggingface (@huggingface :hugs:) which compares contrastive search with other popular decoding methods. Many thanks to Huggingface :hugs:!
+:star2: Also check out this awesome [[demo]](https://huggingface.co/spaces/joaogante/contrastive_search_generation) generously supported by Huggingface ([@huggingface](https://github.com/huggingface) :hugs:) which compares contrastive search with other popular decoding methods. Many thanks to Huggingface :hugs:!
 
 ****
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
