@@ -46,6 +46,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
         * <a href='#simctg_table_1'>2.2.2. Example in Table 1</a>
         * <a href='#simctg_table_8'>2.2.3. Example in Table 8 at Appendix A</a>
         * <a href='#simctg_table_9'>2.2.4. Example in Table 9 at Appendix A</a>
+* <a href='#LMs_isotropy'>3. Isotropy of LMs</a>
     
 ****
 
@@ -494,4 +495,15 @@ by humans, and has been dubbed "Porcupine Man" for his ability to converse with 
 ----------------------------------------------------------------------------------------------------
 ```
 </details>
+
+
+
+****
+
+<span id='LMs_isotropy'/>
+
+##### 3. Isotropy of LMs: <a href='#all_catelogue'>[Back to Top]</a>
+
+The detailed tutorial on measuring the isotropy of LMs is provided [here](./isotropy_analysis/)
+
 
