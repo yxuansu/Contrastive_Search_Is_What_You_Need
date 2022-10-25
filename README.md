@@ -120,6 +120,142 @@ Kobe's personality is something that can't be taught, and it's a big reason why.
 </details>
 
 
+<span id='transformers_table_8'/>
+
+###### 2.1.3. Example in Table 8 at Appendix A: <a href='#all_catelogue'>[Back to Top]</a>
+
+To reproduce our example provided in Table 8 at Appendix A, please run the following command:
+```python
+# load the LMs
+import torch
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+model_name = 'gpt2-large'
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+
+# prepare the prefix
+prefix_text = r'DeepMind Company is'
+inputs = tokenizer(prefix_text, return_tensors='pt')
+
+# generate the result with contrastive search
+output = model.generate(**inputs, penalty_alpha=0.6, top_k=4, max_length=512)
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+print("" + 100 * '-')
+```
+
+<details>
+<summary><b>Model Output: [click to expand]</b></summary>
+  
+```
+Output:
+----------------------------------------------------------------------------------------------------  
+DeepMind Company is a leader in artificial intelligence (AI). We have a long history of working
+with companies such as Google, Facebook, Amazon, and Microsoft to build products that improve
+people's lives, and today we are excited to announce that DeepMind's AlphaGo program has won the
+game of Go, becoming the first program to defeat a professional Go player.
+
+The victory is a testament to the power of deep learning, and to the incredible work of our
+research team, which has been at the forefront of AI research for the past five years. AlphaGo
+is one of the most advanced Go programs ever created, and its performance is an important step
+towards the goal of human-level AI.
+
+"This is the culmination of a decade of hard work," said Andy Ng, co-founder and CTO of DeepMind.
+"We are thrilled to have achieved this milestone and look forward to continuing to develop AI that
+can be used in a wide range of applications and to help people live better lives."
+
+DeepMind's work on Go began in 2010, when it began to train a neural network to play Go using
+millions of games played by top Go players around the world. Since then, the team has refined the
+algorithm, adding more and more layers of reinforcement learning to make it better at recognizing
+patterns and making decisions based on those patterns. In the past year and a half, the team has
+made significant progress in the game, winning a record-tying 13 games in a row to move into the
+top four of the world rankings.
+
+"The game of Go is a complex game in which players have to be very careful not to overextend their
+territory, and this is something that we have been able to improve over and over again," said
+Dr. Demis Hassabis, co-founder and Chief Scientific Officer of DeepMind. "We are very proud of our
+team's work, and we hope that it will inspire others to take the next step in their research and
+apply the same techniques to other problems."
+
+In addition to the win in Go, DeepMind has also developed an AI system that can learn to play a
+number of different games, including poker, Go, and chess. This AI system, called Tarsier, was
+developed in partnership with Carnegie Mellon University and the University of California, 
+Berkeley, and is being used to teach computer vision and machine learning to identify objects in
+images and recognize speech in natural language. Tarsier has been trained to play the game of Go
+and other games on a number of different platforms...
+----------------------------------------------------------------------------------------------------
+```
+</details>
+
+
+<span id='transformers_table_9'/>
+
+###### 2.1.4. Example in Table 9 at Appendix A: <a href='#all_catelogue'>[Back to Top]</a>
+
+To reproduce our example provided in Table 9 at Appendix A, please run the following command:
+```python
+# load the LMs
+import torch
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+model_name = 'gpt2-large'
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name, pad_token_id=tokenizer.eos_token_id)
+
+# prepare the prefix
+prefix_text = r"In a shocking finding, scientist discovered a herd of unicorns living in a remote, previously unexplored valley, in the Andes Mountains. Even more surprising to the researchers was the fact that the unicorns spoke perfect English."
+inputs = tokenizer(prefix_text, return_tensors='pt')
+
+# generate the result with contrastive search
+output = model.generate(**inputs, penalty_alpha=0.6, top_k=4, max_length=512)
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+print("" + 100 * '-')
+```
+
+<details>
+<summary><b>Model Output: [click to expand]</b></summary>
+  
+```
+Output:
+----------------------------------------------------------------------------------------------------  
+In a shocking finding, scientist discovered a herd of unicorns living in a remote, previously
+unexplored valley, in the Andes Mountains. Even more surprising to the researchers was the fact
+that the unicorns spoke perfect English.
+
+According to the BBC, a team of scientists led by Dr David MacKay, from the University of
+Bristol, spent two years searching for the unicorn herd, which they discovered during a survey
+of the area.
+
+"It's a very rare find," MacKay told the BBC. "There are a few in the Himalayas, but this is
+the first time we've been able to find one in such a remote area."
+
+The team was surprised to find a herd of unicorns living in a region that has been known to be
+a hotbed of poaching, with many of the animals poached for their horns, which are used in
+traditional Chinese medicine to treat everything from rheumatism to cancer.
+
+"We knew that the area was rich in rhino horn, but we had no idea how many there were, or what
+they were doing there," MacKay said. "This is an area of high poaching pressure, and we wanted
+to find out what was going on."
+
+In order to do so, the team used GPS collars to track the animals as they moved around the
+mountain and the surrounding area. The GPS data was then compared with information gathered
+from local villagers, who had a wealth of information about the animals' movements, including
+where they were eating, what they were doing at night, and how much time they spent in the
+mountains each day.
+
+After analyzing the data, the team determined that the herd consisted of at least three species
+of unicorns, including a male and two females. One of the females was the mother of the male,
+and the other two were her daughters. All three had the same horn color, which is believed to
+be a sign of purity in the animal kingdom.
+
+While the discovery is exciting, it's not the first time scientists have discovered an animal
+that speaks English. Last year, scientists discovered a species of porcupine that can be heard
+by humans, and has been dubbed "Porcupine Man" for his ability to converse with the human race.
+----------------------------------------------------------------------------------------------------
+```
+</details>
+
+
 <span id='use_simctg'/>
 
 ##### 2.2. Using SimCTG Package: <a href='#all_catelogue'>[Back to Top]</a>
