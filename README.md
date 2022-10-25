@@ -48,6 +48,8 @@ If you find our paper and resources useful, please kindly leave a star and cite 
         * <a href='#simctg_table_9'>2.2.4. Example in Table 9 at Appendix A</a>
 * <a href='#LMs_isotropy'>3. Measuring Isotropy of LMs</a>
 * <a href='#open_ended_text_generation'>4. Open-ended Text Generation</a>
+* <a href='#code_generation'>5. Code Generation</a>
+* <a href='#machine_translation'>6. Machine Translation</a>
     
 ****
 
@@ -520,6 +522,32 @@ pip install simctg --upgrade
 ##### 4. Open-ended Text Generation: <a href='#all_catelogue'>[Back to Top]</a>
 
 The detailed tutorial on the experiments of open-ended text generation is provided [[here]](./open_ended_generation/).
+
+**[Note]** To replicate our experimental results, please make sure you have installed the environment as
+```yaml
+pip install simctg --upgrade
+```
+
+****
+
+<span id='code_generation'/>
+
+##### 5. Code Generation: <a href='#all_catelogue'>[Back to Top]</a>
+
+The detailed tutorial on the experiments of code generation is provided [[here]](./code_generation/).
+
+**[Note]** To replicate our experimental results, please make sure you have installed the environment as
+```yaml
+pip install simctg --upgrade
+```
+
+****
+
+<span id='machine_translation'/>
+
+##### 6. Machine Translation: <a href='#all_catelogue'>[Back to Top]</a>
+
+The detailed tutorial on the experiments of machine translation is provided [[here]](./translation/).
 
 **[Note]** To replicate our experimental results, please make sure you have installed the environment as
 ```yaml
