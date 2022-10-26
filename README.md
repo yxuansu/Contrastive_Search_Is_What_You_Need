@@ -7,7 +7,7 @@ This repository contains code other related resources of our paper ["Contrastive
 
 :star2: Check out this awesome [[demo]](https://huggingface.co/spaces/joaogante/contrastive_search_generation) generously supported by Huggingface ([@huggingface](https://github.com/huggingface) :hugs:) which compares contrastive search with other popular decoding methods. Many thanks to Huggingface :hugs:! 
 
-In <a href='#install_transformers'>Section 2.1.</a>, we demonstrate how to use contrastive search with Huggingface `transformers`.
+In <a href='#install_transformers'>Section 2.1.</a>, we demonstrate how to use contrastive search in Huggingface `transformers`.
 
 ****
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
