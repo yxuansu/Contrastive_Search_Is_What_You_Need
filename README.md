@@ -20,11 +20,13 @@ If you find our paper and resources useful, please kindly leave a star and cite 
   year={2022}
 }
 
-@article{su2022contrastive,
-  title={A Contrastive Framework for Neural Text Generation},
-  author={Su, Yixuan and Lan, Tian and Wang, Yan and Yogatama, Dani and Kong, Lingpeng and Collier, Nigel},
-  journal={arXiv preprint arXiv:2202.06417},
-  year={2022}
+@inproceedings{su2022a,
+title={A Contrastive Framework for Neural Text Generation},
+author={Yixuan Su and Tian Lan and Yan Wang and Dani Yogatama and Lingpeng Kong and Nigel Collier},
+booktitle={Advances in Neural Information Processing Systems},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=V88BafmH9Pj}
 }
 ```
 
