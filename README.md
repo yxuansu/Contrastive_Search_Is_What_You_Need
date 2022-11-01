@@ -86,7 +86,7 @@ In this section, we demonstrate two ways of reproducing the examples generated b
 
 To install `transformers` from the source, please run the following command:
 ```yaml
-pip install git+https://github.com/huggingface/transformers
+pip install "transformers>=4.24.0"
 ```
 
 <span id='transformers_table_1'/>
