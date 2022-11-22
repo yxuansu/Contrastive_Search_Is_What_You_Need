@@ -3,7 +3,7 @@
 
 **[Contact]** If you have any questions, feel free to contact me via (ys484 at cam.ac.uk).
 
-This repository contains code other related resources of our paper ["An Empirical Study On Contrastive Search And Contrastive Decoding For Open-ended Text Generation"](https://arxiv.org/abs/2211.10797).
+This repository contains code other related resources of our paper ["Contrastive Search Is What You Need For Neural Text Generation"](https://arxiv.org/abs/2210.14140).
 
 :star2: Check out this awesome [[demo]](https://huggingface.co/spaces/joaogante/contrastive_search_generation) generously supported by Huggingface ([@huggingface](https://github.com/huggingface) :hugs:) which compares contrastive search with other popular decoding methods. Many thanks to Huggingface :hugs:! 
 
