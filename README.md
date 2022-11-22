@@ -33,7 +33,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 ****
 
 ### News:
-* [2022/11/22] Released a technical report that compares contrastive search with another recently proposed decoding method, i.e. contrastive decoding. Check out the [[paper]](https://arxiv.org/abs/2211.10797) and [[code]](https://github.com/yxuansu/Contrastive_Search_versus_Contrastive_Decoding).
+* [2022/11/22] Released a technical report that compares Contrastive Search with another recently proposed method, i.e. Contrastive Decoding. Check out the [[paper]](https://arxiv.org/abs/2211.10797) and [[code]](https://github.com/yxuansu/Contrastive_Search_versus_Contrastive_Decoding).
 * [2022/10/26] The paper "Contrastive Search Is What You Need For Neural Text Generation" is publicly released!
 
 ****
