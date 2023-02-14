@@ -33,6 +33,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 ****
 
 ### News:
+* [2023/02/14] Our manuscript is accepted to TMLR'23! [[Openreview Link]](https://openreview.net/forum?id=GbkWw3jwL9)
 * [2022/11/22] Released a technical report that compares Contrastive Search with another recently proposed method, i.e. Contrastive Decoding. Check out our [[paper]](https://arxiv.org/abs/2211.10797) and [[code]](https://github.com/yxuansu/Contrastive_Search_versus_Contrastive_Decoding).
 * [2022/10/26] The paper "Contrastive Search Is What You Need For Neural Text Generation" is publicly released!
 
