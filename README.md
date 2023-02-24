@@ -13,12 +13,14 @@ In <a href='#install_transformers'>Section 2.1.</a>, we demonstrate how to use c
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
 
 ```bibtex
-@article{su2022contrastiveiswhatyouneed,
+@article{su2022contrastive,
   title={Contrastive Search Is What You Need For Neural Text Generation},
   author={Yixuan Su and Nigel Collier},
   journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
   year={2023},
-  url={https://openreview.net/forum?id=GbkWw3jwL9}
+  url={https://openreview.net/forum?id=GbkWw3jwL9},
+  note={}
 }
 
 @inproceedings{su2022a,
