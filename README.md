@@ -19,8 +19,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
   journal={Transactions on Machine Learning Research},
   issn={2835-8856},
   year={2023},
-  url={https://openreview.net/forum?id=GbkWw3jwL9},
-  note={}
+  url={https://openreview.net/forum?id=GbkWw3jwL9}
 }
 
 @inproceedings{su2022a,
